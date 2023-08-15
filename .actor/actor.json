@@ -1,0 +1,12 @@
+{
+	"actorSpecification": 1,
+	"name": "nham24 Resturant Item Scraper",
+	"title": "nham24.com resturant item scraper",
+	"description": "Scrapes items of resturants from nham24.com using Selenium.",
+	"version": "0.0",
+	"meta": {
+		"templateId": "python-selenium"
+	},
+	"input": "./input_schema.json",
+	"dockerfile": "./Dockerfile"
+}
