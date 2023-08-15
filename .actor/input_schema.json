@@ -4,9 +4,9 @@
     "schemaVersion": 1,
     "properties": {
         "urls": {
-            "title": "Start URLs",
+            "title": "URLs",
             "type": "array",
-            "description": "URLs to start with",
+            "description": "URLs of resturants",
             "prefill": [
                 { "url": "https://nham24.com/food/carolina_bbq" }
             ],
@@ -20,5 +20,5 @@
             "prefill": "Phnom Penh, Cambodia"
         }
     },
-    "required": ["start_urls", "location"]
+    "required": ["urls", "location"]
 }
